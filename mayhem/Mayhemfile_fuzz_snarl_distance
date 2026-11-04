@@ -1,0 +1,9 @@
+project: savantenvs/vg
+target: fuzz_snarl_distance
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_snarl_distance/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_snarl_distance
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,1 @@
+{"name":"r2","sequence":"GATTTACA","quality":"AAAAAAAA","path":{"mapping":[{"position":{"node_id":"1","offset":"0"},"edit":[{"from_length":3,"to_length":3},{"to_length":1,"sequence":"T"},{"from_length":4,"to_length":4}],"rank":"1"}]},"is_secondary":true}

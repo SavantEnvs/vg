@@ -1,0 +1,9 @@
+project: savantenvs/vg
+target: fuzz_json_alignment
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_json_alignment/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_json_alignment
+    libfuzzer: true
+    timeout: 30
