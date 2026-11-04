@@ -1,0 +1,1 @@
+{"sequence":"ACGT","path":{"mapping":[{"position":{"node_id":"5","is_reverse":true},"edit":[{"from_length":2,"to_length":2},{"from_length":1,"sequence":""}],"rank":"1"},{"position":{"node_id":"6"},"edit":[{"from_length":1,"to_length":1,"sequence":"T"}],"rank":"2"}]},"fragment_next":{"name":"mate"},"read_group":"rg"}

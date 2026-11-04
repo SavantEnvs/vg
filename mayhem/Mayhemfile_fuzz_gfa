@@ -1,0 +1,9 @@
+project: savantenvs/vg
+target: fuzz_gfa
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_gfa/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_gfa
+    libfuzzer: true
+    timeout: 30
